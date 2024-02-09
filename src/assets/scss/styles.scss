@@ -1,0 +1,3311 @@
+@import "base";
+
+// Navigation Section
+#navigation {
+  background-color: $color-black-strong;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.navbar-dark {
+  .navbar-brand {
+    color: $color-brown-strong;
+    font-family: $font-val;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  .navbar-brand:hover {
+    color: $color-brown-strong;
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $color-brown-strong;
+      font-family: $font-ramble-regular;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    .nav-link.active,
+    .nav-link:hover {
+      color: $color-white;
+      box-shadow: inset 0 -5px 0 0 $color-dead-red;
+    }
+  }
+
+  .btn {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+    border-color: $color-brown-strong;
+  }
+}
+
+// Home Section
+
+#home {
+  background-color: $color-black-strong;
+  min-height: 100vh;
+  button {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+
+  .btn-custom {
+    border-color: $color-brown-strong;
+  }
+}
+.home-body {
+  min-height: 100vh;
+}
+
+#home-content {
+  background-color: $color-brown-weak;
+  box-shadow: -5px 5px $color-brown-strong;
+  span {
+    color: $color-black-weak;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#home-detail {
+  span {
+    color: $color-brown-strong;
+    font-family: $font-voces-regular;
+  }
+}
+
+// About Section
+
+#about {
+  background-color: $color-brown-strong;
+  min-height: 100vh;
+  button {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+  }
+}
+.about-body {
+  min-height: 100vh;
+}
+
+#about-content {
+  background-color: $color-black-weak;
+  span {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#about-detail {
+  span {
+    color: $color-black-weak;
+    font-family: $font-voces-regular;
+  }
+}
+
+#about-button {
+  button {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    background-color: $color-black-strong;
+    border-color: $color-black-strong;
+  }
+}
+
+// Perks Section
+
+#perks {
+  background-color: $color-black-weak;
+  min-height: 100vh;
+}
+
+#perks-content {
+  background-color: $color-brown-weak;
+  span {
+    color: $color-black-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#perks-accordion {
+  .accordion-item {
+    border: none;
+    .accordion-header {
+      .accordion-button {
+        font-family: $font-ramble-bold;
+        background-color: $color-brown-strong;
+        color: $color-black-strong;
+      }
+      .accordion-button::after {
+        background-image: url("../img/black-down.png");
+      }
+      .accordion-button.collapsed {
+        font-family: $font-ramble-bold;
+        background-color: $color-black-strong;
+        color: $color-brown-weak;
+      }
+      .accordion-button.collapsed::after {
+        background-image: url("../img/yellow-down.png");
+      }
+    }
+    .accordion-body {
+      color: $color-black-strong;
+      font-family: $font-voces-regular;
+      background-color: $color-brown-weak;
+    }
+  }
+}
+
+// Treasury Section
+
+#treasury {
+  background-color: $color-black-strong;
+  min-height: 100vh;
+  padding-bottom: 20px;
+}
+.treasury-min-height {
+  min-height: 100vh;
+}
+#treasury-title {
+  background-color: $color-brown-weak;
+  span {
+    color: $color-black-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#treasury-content {
+  color: $color-brown-weak;
+  font-family: $font-voces-regular;
+}
+
+#treasury-accordion {
+  .accordion-item {
+    border: none;
+    .accordion-header {
+      .accordion-button {
+        background-color: $color-brown-strong;
+        font-family: $font-ramble-bold;
+        color: $color-black-strong;
+      }
+      .accordion-button::after {
+        background-image: url("../img/black-down.png");
+      }
+      .accordion-button.collapsed {
+        font-family: $font-ramble-bold;
+        background-color: $color-black-weak;
+        color: $color-brown-weak;
+      }
+      .accordion-button.collapsed::after {
+        background-image: url("../img/yellow-strong-down.png");
+      }
+    }
+    .accordion-body {
+      color: $color-brown-weak;
+      font-family: $font-voces-regular;
+      background-color: $color-black-strong;
+    }
+  }
+}
+
+// Parity Section
+
+#parity {
+  background-color: $color-brown-strong;
+  min-height: 100vh;
+}
+.parity-body {
+  min-height: 100vh;
+}
+#parity-title {
+  background-color: $color-black-weak;
+  span {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#parity-content {
+  color: $color-black-weak;
+  font-family: $font-voces-regular;
+}
+
+#parity-detail-title {
+  font-family: $font-ramble-bold;
+  color: $color-black-weak;
+}
+
+#parity-detail {
+  font-family: $font-voces-regular;
+  color: $color-black-weak;
+}
+
+// Roadmap Section
+
+#roadmap {
+  background-color: $color-black-weak;
+  min-height: 100vh;
+}
+
+#roadmap-title {
+  background-color: $color-black-weak;
+  span {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#roadmap-phase {
+  background-color: $color-brown-strong;
+  color: $color-black-strong;
+  font-family: $font-ramble-bold;
+}
+
+.roadmap-content {
+  background-color: $color-brown-strong;
+  font-family: $font-voces-regular;
+  color: $color-black-strong;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: "";
+  position: absolute;
+  background-color: $color-brown-strong;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* Container around content */
+.container {
+  position: relative;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: "";
+  position: absolute;
+  background-color: $color-brown-weak;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* The actual content */
+.content {
+  cursor: pointer;
+  color: $color-brown-strong;
+  h2 {
+    font-family: $font-ramble-bold;
+  }
+
+  h2.active {
+    color: white;
+  }
+}
+.list-group-item {
+  background-color: $color-black-weak;
+  color: $color-brown-strong;
+  font-family: $font-voces-regular;
+}
+.list-group-item.active {
+  color: white;
+  background-color: $color-black-weak;
+  border: none;
+}
+// Team Section
+
+#team {
+  background-color: $color-black-strong;
+  min-height: 100vh;
+  .card {
+    .card-body {
+      background-color: $color-black-weak;
+    }
+    .card-text {
+      font-family: $font-voces-regular;
+      color: $color-brown-strong;
+    }
+  }
+  #team-title {
+    background-color: $color-brown-weak;
+    span {
+      color: $color-black-strong;
+      font-family: $font-ramble-bold;
+      text-transform: uppercase;
+    }
+  }
+  #team-content {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+
+  .team-detail {
+    span {
+      color: $color-brown-strong;
+      font-family: $font-voces-regular;
+    }
+  }
+}
+
+// FAQ Section
+
+#faq {
+  background-color: $color-brown-strong;
+  min-height: 100vh;
+}
+
+#faq-title {
+  background-color: $color-black-weak;
+  span {
+    color: $color-brown-strong;
+    font-family: $font-ramble-bold;
+    text-transform: uppercase;
+  }
+}
+
+#faq-accordion {
+  .accordion-item {
+    border: none;
+    .accordion-header {
+      .accordion-button {
+        background-color: $color-black-strong;
+        font-family: $font-ramble-bold;
+        color: $color-brown-strong;
+      }
+      .accordion-button::after {
+        background-image: url("../img/yellow-strong-down.png");
+      }
+      .accordion-button.collapsed {
+        font-family: $font-ramble-bold;
+        background-color: $color-black-weak;
+        color: $color-brown-weak;
+      }
+      .accordion-button.collapsed::after {
+        background-image: url("../img/yellow-strong-down.png");
+      }
+    }
+    .accordion-body {
+      color: $color-black-strong;
+      font-family: $font-voces-regular;
+      background-color: $color-brown-weak;
+    }
+  }
+}
+
+//Info Section
+
+#info {
+  background-color: $color-black-weak;
+  span {
+    font-family: $font-voces-regular;
+    color: $color-brown-strong;
+  }
+}
+
+
+@media only screen and (max-width: 991.98px) {
+  // Navigation Section
+  #navigation {
+    padding: 10px 30px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: center;
+      }
+      .social {
+        padding-left: 20px;
+      }
+    }
+    .social-nav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .btn {
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      font-size: 20px;
+      line-height: 25px;
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    padding-top: 120px;
+    button {
+      margin-left: 10px;
+      padding: 10px 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .btn-custom {
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+  .home-body {
+    text-align: center;
+    min-height: auto;
+  }
+  #home-content {
+    margin: auto;
+    width: 350px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #home-detail {
+    margin: auto;
+    min-width: 330px;
+    padding: 20px 10px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 90%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    padding-top: 120px;
+    button {
+      padding: 7px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .about-body {
+    text-align: center;
+    min-height: auto;
+  }
+  #about-content {
+    margin: auto;
+    width: 350px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #about-detail {
+    margin: auto;
+    text-align: left;
+    max-width: 700px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #about-button {    
+    display: flex;
+    justify-content: center !important;
+    button {
+      margin-left: 3px;
+      padding: 0px 10px;
+      font-size: 20px;
+      line-height: 25px;
+      border-radius: 5px;
+      border-width: 2px;
+    }
+  }
+
+  #about-images {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .oneHead {
+      width: 60%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  #perks-content {
+    width: 500px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 15px;
+    .accordion-item {
+      margin-top: 15px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 25px;
+          line-height: 25px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 25px;
+          line-height: 25px;
+        }
+      }
+      .accordion-body {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 120px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    max-width: 540px;
+    text-align: center;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 30px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+      .accordion-body {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 20px;
+    .ethereum {
+      width: 150px;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 120px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 200px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #parity-content {
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 10px;
+  }
+
+  #parity-detail-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #parity-detail {
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    padding-bottom: 20px;
+    .parity {
+      width: 50%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 10px;
+    span {
+      font-size: 55px;
+      line-height: 55px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 3px 3px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+
+  .roadmap-content {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px 30px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 20px 30px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 20px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  }
+  .list-group-item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 120px;
+    .card {
+      width: 75%;
+      margin-bottom: 10px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    // .phone-align {
+    //   text-align: center;
+    // }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 270px;
+      margin-bottom: 20px;
+      span {
+        font-size: 50px;
+        line-height: 50px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 30px;
+      padding-bottom: 20px;
+    }
+
+    .team-detail {
+      padding-bottom: 20px;
+      span {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 120px;
+    padding-bottom: 20px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 130px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 30px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+      .accordion-body {
+        font-size: 20px;
+        line-height: 25px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 10px 0px;
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  // Navigation Section
+  #navigation {
+    padding: 10px 10px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 30px;
+      line-height: 35px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+      }
+      .social {
+        padding-left: 10px;
+      }
+    }
+    .social-nav {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .btn {
+      margin-bottom: 20px;
+      padding: 5px 15px;
+      font-size: 15px;
+      line-height: 20px;
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    padding-top: 100px;
+    button {
+      margin-left: 10px;
+      padding: 10px 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .btn-custom {
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+  .home-body {
+    text-align: center;
+    min-height: auto;
+  }
+  #home-content {
+    margin: auto;
+    width: 100%;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #home-detail {
+    margin: auto;
+    min-width: 330px;
+    padding: 20px 10px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 90%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    padding-top: 100px;
+    button {
+      padding: 7px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .about-body {
+    text-align: center;
+    min-height: auto;
+  }
+  #about-content {
+    margin: auto;
+    width: 100%;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 0px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #about-detail {
+    margin: auto;
+    text-align: left;
+    max-width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  #about-button {    
+    display: flex;
+    justify-content: center !important;
+    button {
+      margin-left: 3px;
+      padding: 3px 10px;
+      font-size: 20px;
+      line-height: 25px;
+      border-radius: 5px;
+      border-width: 2px;
+    }
+  }
+
+  #about-images {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .oneHead {
+      width: 60%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 100px;
+    padding-bottom: 15px;
+  }
+
+  #perks-content {
+    width: 500px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 10px;
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 100px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 100%;
+    text-align: center;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+  #treasury-content {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 10px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 20px;
+    .ethereum {
+      width: 150px;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 100px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 200px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #parity-content {
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 10px;
+  }
+
+  #parity-detail-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #parity-detail {
+    font-size: 18px;
+    line-height: 23px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    padding-bottom: 20px;
+    .parity {
+      width: 50%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 100px;
+    padding-bottom: 15px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 10px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 3px 3px;
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+  }
+
+  .roadmap-content {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 10px 10px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 20px 30px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 20px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+  .list-group-item {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 100px;
+    .card {
+      width: 75%;
+      margin-bottom: 10px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    // .phone-align {
+    //   text-align: center;
+    // }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 270px;
+      margin-bottom: 20px;
+      span {
+        font-size: 40px;
+        line-height: 45px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 30px;
+      padding-bottom: 10px;
+    }
+
+    .team-detail {
+      padding-bottom: 20px;
+      span {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 100px;
+    padding-bottom: 10px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 130px;
+    span {
+      font-size: 40px;
+      line-height: 45px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 10px 0px;
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  // Navigation Section
+  #navigation {
+    padding: 10px 20px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 40px;
+      line-height: 45px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 13px;
+        line-height: 18px;
+      }
+      .social {
+        padding-left: 10px;
+      }
+    }
+
+    .btn {
+      margin-left: 0px;
+      padding: 5px 15px;
+      font-size: 13px;
+      line-height: 18px;
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    button {
+      margin-left: 10px;
+      padding: 10px 10px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .btn-custom {
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  #home-content {
+    width: 310px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #home-detail {
+    width: 330px;
+    padding: 20px 10px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 90%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    button {
+      padding: 7px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .about-body {
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+  #about-content {
+    width: 350px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #about-detail {
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  #about-button {
+    button {
+      margin-left: 3px;
+      padding: 0px 10px;
+      font-size: 15px;
+      line-height: 20px;
+      border-radius: 5px;
+      border-width: 2px;
+    }
+  }
+
+  #about-images {
+    .oneHead {
+      width: 85%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 120px;
+  }
+
+  #perks-content {
+    width: 500px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 10px;
+    .accordion-item {
+      margin-top: 7px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 100px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 540px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 15px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 50px;
+    .ethereum {
+      width: 70%;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 120px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 200px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #parity-content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #parity-detail-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #parity-detail {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    .parity {
+      width: 80%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 10px;
+    span {
+      font-size: 55px;
+      line-height: 55px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 3px 3px;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+
+  .roadmap-content {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 20px 30px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 20px 30px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 20px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  .list-group-item {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 100px;
+    .card {
+      width: 100%;
+      margin-bottom: 20px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 270px;
+      margin-bottom: 20px;
+      span {
+        font-size: 50px;
+        line-height: 50px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 30px;
+      padding-bottom: 20px;
+    }
+
+    .team-detail {
+      span {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 5px 5px;
+    width: 120px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 10px 0px;
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  // Navigation Section
+  #navigation {
+    padding: 0px 35px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 50px;
+      line-height: 60px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .social {
+        padding-left: 20px;
+      }
+    }
+
+    .btn {
+      margin-left: 35px;
+      padding: 5px 15px;
+      font-size: 15px;
+      line-height: 20px;
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    button {
+      margin-left: 10px;
+      padding: 10px 10px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    .btn-custom {
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  #home-content {
+    width: 310px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #home-detail {
+    width: 330px;
+    padding: 20px 10px;
+    span {
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 90%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    button {
+      padding: 7px;
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+  .about-body {
+    padding-top: 55px;
+    padding-bottom: 20px;
+  }
+  #about-content {
+    width: 350px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #about-detail {
+    width: 450px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+
+  #about-button {
+    button {
+      margin-left: 3px;
+      padding: 0px 10px;
+      font-size: 15px;
+      line-height: 20px;
+      border-radius: 5px;
+      border-width: 2px;
+    }
+  }
+
+  #about-images {
+    .oneHead {
+      width: 75%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 90px;
+  }
+
+  #perks-content {
+    width: 500px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 10px;
+    .accordion-item {
+      margin-top: 7px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 20px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 20px;
+        }
+      }
+      .accordion-body {
+        font-size: 18px;
+        line-height: 23px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 100px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 540px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 25px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .accordion-body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 50px;
+    .ethereum {
+      width: 55%;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 100px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 200px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #parity-content {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+
+  #parity-detail-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  #parity-detail {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    .parity {
+      width: 70%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 10px;
+    span {
+      font-size: 55px;
+      line-height: 55px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 3px 3px;
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+
+  .roadmap-content {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 20px 30px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 20px 30px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 20px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  .list-group-item {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 90px;
+    .card {
+      width: 75%;
+      margin-bottom: 10px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 270px;
+      margin-bottom: 20px;
+      span {
+        font-size: 50px;
+        line-height: 50px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 30px;
+      padding-bottom: 20px;
+    }
+
+    .team-detail {
+      span {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 90px;
+    padding-bottom: 20px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 130px;
+    span {
+      font-size: 50px;
+      line-height: 50px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 20px;
+          line-height: 25px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 20px;
+          line-height: 25px;
+        }
+      }
+      .accordion-body {
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 10px 0px;
+    span {
+      font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  // Navigation Section
+  #navigation {
+    padding: 10px 35px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 55px;
+      line-height: 60px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .social {
+        padding-left: 25px;
+      }
+    }
+
+    .btn {
+      margin-left: 45px;
+      padding: 13px 18px;
+      font-size: 20px;
+      line-height: 25px;
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    button {
+      margin-left: 10px;
+      padding: 13px 20px;
+      font-size: 25px;
+      line-height: 35px;
+    }
+
+    .btn-custom {
+      border-width: 2px;
+      border-radius: 5px;
+    }
+  }
+
+  #home-content {
+    width: 420px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #home-detail {
+    width: 450px;
+    padding: 20px 10px;
+    span {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 100%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    button {
+      padding: 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+
+  #about-content {
+    width: 460px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #about-detail {
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    span {
+      font-size: 23px;
+      line-height: 28px;
+    }
+  }
+
+  #about-button {
+    button {
+      margin-left: 5px;
+      padding: 5px 18px;
+      font-size: 23px;
+      line-height: 28px;
+      border-radius: 10px;
+      border-width: 4px;
+    }
+  }
+
+  #about-images {
+    .oneHead {
+      width: 85%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 130px;
+  }
+
+  #perks-content {
+    width: 690px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 20px;
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 28px;
+          line-height: 28px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 28px;
+          line-height: 28px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 120px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 740px;
+    span {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 15px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 28px;
+          line-height: 33px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 28px;
+          line-height: 33px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 50px;
+    .ethereum {
+      width: 55%;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 120px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 260px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #parity-content {
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+
+  #parity-detail-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  #parity-detail {
+    font-size: 23px;
+    line-height: 28px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    .parity {
+      width: 85%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 120px;
+    padding-bottom: 30px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 20px;
+    span {
+      font-size: 60px;
+      line-height: 60px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 5px 5px;
+    font-size: 40px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    margin-right: 60px;
+  }
+
+  .roadmap-content {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 60px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 28px 30px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 30px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 28px;
+      line-height: 33px;
+    }
+  }
+  .list-group-item {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  // Team Section
+
+  #team {
+    padding-top: 120px;
+    .card {
+      width: 80%;
+      margin-bottom: 30px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 360px;
+      margin-bottom: 30px;
+      span {
+        font-size: 70px;
+        line-height: 70px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 35px;
+      padding-bottom: 30px;
+    }
+
+    .team-detail {
+      span {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 120px;
+    padding-bottom: 30px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 170px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 40px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 33px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 13px 0px;
+    span {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  // Navigation Section
+  #navigation {
+    padding: 10px 35px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 55px;
+      line-height: 60px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      .social {
+        padding-left: 25px;
+      }
+    }
+
+    .btn {
+      margin-left: 45px;
+      padding: 13px 18px;
+      font-size: 20px;
+      line-height: 25px;
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    button {
+      margin-left: 10px;
+      padding: 13px 20px;
+      font-size: 25px;
+      line-height: 35px;
+    }
+
+    .btn-custom {
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+
+  #home-content {
+    width: 420px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #home-detail {
+    width: 450px;
+    padding: 20px 10px;
+    span {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 100%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    button {
+      padding: 10px;
+      font-size: 20px;
+      line-height: 25px;
+    }
+  }
+  #about-content {
+    width: 460px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #about-detail {
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    span {
+      font-size: 23px;
+      line-height: 28px;
+    }
+  }
+
+  #about-button {
+    button {
+      margin-left: 5px;
+      padding: 5px 18px;
+      font-size: 23px;
+      line-height: 28px;
+      border-radius: 10px;
+      border-width: 4px;
+    }
+  }
+
+  #about-images {
+    .oneHead {
+      width: 80%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 140px;
+  }
+
+  #perks-content {
+    width: 690px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 30px;
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 30px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 30px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 120px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 740px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 10px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 35px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 35px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 28px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 80px;
+    .ethereum {
+      width: 55%;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 130px;
+  }
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 270px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #parity-content {
+    font-size: 23px;
+    line-height: 28px;
+    margin-top: 20px;
+  }
+
+  #parity-detail-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  #parity-detail {
+    font-size: 23px;
+    line-height: 28px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    .parity {
+      width: 78%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 120px;
+    padding-bottom: 30px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 20px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 5px 5px;
+    font-size: 45px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .roadmap-content {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 40px 60px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    width: 8px;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 28px 40px;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    width: 30px;
+    height: 30px;
+    border: 8px solid $color-brown-strong;
+    top: 30px;
+    border-radius: 50%;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    h2 {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+  .list-group-item {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 140px;
+    .card {
+      width: 85%;
+      margin-bottom: 20px;
+      .card-text {
+        font-size: 25px;
+      }
+    }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 360px;
+      margin-bottom: 30px;
+      span {
+        font-size: 70px;
+        line-height: 70px;
+      }
+    }
+    #team-content {
+      font-size: 30px;
+      line-height: 35px;
+      padding-bottom: 30px;
+    }
+
+    .team-detail {
+      span {
+        font-size: 20px;
+        line-height: 30px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 140px;
+    padding-bottom: 30px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 170px;
+    span {
+      font-size: 70px;
+      line-height: 70px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 30px;
+          line-height: 40px;
+          padding: 10px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 30px;
+          line-height: 40px;
+        }
+      }
+      .accordion-body {
+        font-size: 23px;
+        line-height: 33px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 13px 0px;
+    span {
+      font-size: 15px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  // Navigation Section
+  #navigation {
+    padding: 20px 40px;
+  }
+
+  .navbar-dark {
+    .navbar-brand {
+      font-size: 66px;
+      line-height: 81px;
+    }
+
+    .navbar-nav {
+      .nav-link {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      .social {
+        padding-left: 30px;
+      }
+    }
+
+    .btn {
+      margin-left: 50px;
+      padding: 15px 20px;
+      font-size: 25px;
+      line-height: 30px;
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+
+  // Home Section
+
+  #home {
+    button {
+      margin-left: 10px;
+      padding: 15px 25px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+
+    .btn-custom {
+      border-width: 4px;
+      border-radius: 10px;
+    }
+  }
+
+  #home-content {
+    width: 510px;
+    box-shadow: -6px 6px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 87px;
+      line-height: 87px;
+    }
+  }
+
+  #home-detail {
+    width: 510px;
+    padding: 20px 10px;
+    span {
+      font-size: 37px;
+      line-height: 42px;
+    }
+  }
+
+  #home-image {
+    .brains-group {
+      width: 95%;
+    }
+  }
+
+  // About Section
+
+  #about {
+    button {
+      padding: 15px;
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  #about-content {
+    width: 560px;
+    box-shadow: -6px 6px $color-black-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #about-detail {
+    width: 650px;
+    padding-top: 20px;
+    span {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  #about-button {
+    button {
+      margin-left: 5px;
+      padding: 5px 20px;
+      font-size: 25px;
+      line-height: 30px;
+      border-radius: 10px;
+      border-width: 4px;
+    }
+  }
+
+  #about-images {
+    .oneHead {
+      width: 75%;
+    }
+  }
+
+  // Perks Section
+
+  #perks {
+    padding-top: 160px;
+  }
+
+  #perks-content {
+    width: 840px;
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #perks-accordion {
+    margin-top: 30px;
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 40px;
+          line-height: 45px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 40px;
+          line-height: 45px;
+        }
+      }
+      .accordion-body {
+        font-size: 28px;
+        line-height: 33px;
+      }
+    }
+  }
+
+  // Treasury Section
+
+  .treasury-body {
+    padding-top: 160px;
+  }
+
+  #treasury-title {
+    box-shadow: -5px 5px $color-brown-strong;
+    padding: 10px 10px;
+    width: 880px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #treasury-content {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+
+  #treasury-accordion {
+    .accordion-item {
+      margin-top: 10px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 40px;
+          line-height: 45px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 40px;
+          line-height: 45px;
+        }
+      }
+      .accordion-body {
+        font-size: 28px;
+        line-height: 33px;
+      }
+    }
+  }
+
+  #treasury-image {
+    padding-top: 80px;
+    .ethereum {
+      width: 55%;
+    }
+  }
+
+  // Parity Section
+
+  .parity-body {
+    padding-top: 160px;
+  }
+
+  #parity-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 310px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #parity-content {
+    font-size: 28px;
+    line-height: 33px;
+    margin-top: 20px;
+  }
+
+  #parity-detail-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  #parity-detail {
+    font-size: 28px;
+    line-height: 33px;
+    padding-left: 30px;
+  }
+
+  #parity-image {
+    .parity {
+      width: 80%;
+    }
+  }
+
+  // Roadmap Section
+
+  #roadmap {
+    padding-top: 160px;
+    padding-bottom: 50px;
+  }
+
+  #roadmap-title {
+    margin-bottom: 20px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #roadmap-phase {
+    padding: 10px 10px;
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
+
+  .roadmap-content {
+    font-size: 24px;
+    line-height: 42px;
+    padding: 40px 60px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  /* The actual timeline (the vertical ruler) */
+  .timeline::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    background-color: $color-brown-strong;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  /* Container around content */
+  .container {
+    padding: 25px 40px;
+    position: relative;
+  }
+
+  /* The circles on the timeline */
+  .container::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: $color-brown-weak;
+    border: 8px solid $color-brown-strong;
+    top: 30px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  /* Fix the circle for containers on the right side */
+  .right::after {
+    left: -11px;
+  }
+
+  /* The actual content */
+  .content {
+    color: $color-brown-strong;
+    h2 {
+      font-family: $font-ramble-bold;
+      font-size: 40px;
+      line-height: 45px;
+    }
+
+    h2.active {
+      color: white;
+    }
+  }
+  .list-group-item {
+    background-color: $color-black-weak;
+    color: $color-brown-strong;
+    font-size: 28px;
+    line-height: 33px;
+    font-family: $font-voces-regular;
+  }
+  .list-group-item.active {
+    color: white;
+    background-color: $color-black-weak;
+    border: none;
+  }
+  // Team Section
+
+  #team {
+    padding-top: 160px;
+    .card {
+      width: 90%;
+      margin-bottom: 20px;
+      .card-text {
+        font-size: 28px;
+      }
+    }
+    #team-title {
+      box-shadow: -5px 5px $color-brown-strong;
+      padding: 10px 10px;
+      width: 420px;
+      margin-bottom: 30px;
+      span {
+        font-size: 85px;
+        line-height: 85px;
+      }
+    }
+    #team-content {
+      font-size: 40px;
+      line-height: 45px;
+      padding-bottom: 30px;
+    }
+
+    .team-detail {
+      span {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+  }
+
+  // FAQ Section
+
+  #faq {
+    padding-top: 160px;
+    padding-bottom: 50px;
+  }
+
+  #faq-title {
+    box-shadow: -5px 5px $color-black-strong;
+    padding: 10px 10px;
+    width: 200px;
+    span {
+      font-size: 85px;
+      line-height: 85px;
+    }
+  }
+
+  #faq-accordion {
+    .accordion-item {
+      margin-top: 20px;
+      .accordion-header {
+        .accordion-button {
+          font-size: 40px;
+          line-height: 50px;
+          padding: 5px 15px;
+        }
+        .accordion-button.collapsed {
+          font-size: 40px;
+          line-height: 50px;
+        }
+      }
+      .accordion-body {
+        font-size: 28px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  //Info Section
+
+  #info {
+    padding: 15px 0px;
+    span {
+      font-size: 20px;
+    }
+  }
+}

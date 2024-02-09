@@ -1,0 +1,40 @@
+// Colors
+$color-black-strong: #0B090A;
+$color-black-weak: #161A1D;
+$color-brown-strong: #EFA48B;
+$color-brown-weak: #FCD5CE;
+$color-white: #fff;
+$color-dead-red: #ff4f5e;
+
+// Fonts
+@font-face {
+    font-family: Ramble-Bold;
+    src: url('../fonts/Rambla-Bold.ttf');
+}
+@font-face {
+    font-family: Ramble-Regular;
+    src: url('../fonts/Rambla-Regular.ttf');
+}
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+@font-face {
+    font-family: Voces-Regular;
+    src: url('../fonts/Voces-Regular.ttf');
+}
+@font-face {
+    font-family: VAL;
+    src: url('../fonts/VAL-Regular.otf');
+}
+
+$font-ramble-bold: 'Ramble-Bold', sans-serif;
+$font-ramble-regular: 'Ramble-Regular', sans-serif;
+$font-roboto-bold: 'Roboto-Bold', sans-serif;
+$font-roboto-regular: 'Roboto-Regular', sans-serif;
+$font-voces-regular: 'Voces-Regular', cursive;
+$font-val: 'VAL', sans-serif;

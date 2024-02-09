@@ -1,0 +1,416 @@
+{
+    "NAVIGATION": {
+        "brand": "no brainers",
+        "about": "about",
+        "perks": "perks",
+        "treasury": "treasury",
+        "parity": "Rarity",
+        "roadmap": "roadmap",
+        "team": "team",
+        "faq": "faq",
+        "discord": "",
+        "twitter": "",
+        "logomark": "",
+        "mint_button_name": "mint now"
+    },
+    "HOME": {
+        "content": [
+            "the brains",
+            "are coming"
+        ],
+        "detail": "Get ready to grow a brain! Mint your NFT now to gain access tothe brainiest community around.",
+        "button": "mint now"
+    },
+    "ABOUT": {
+        "content": [
+            "who are the",
+            "nobrainers?"
+        ],
+        "detail": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.",
+        "button": "Join our Discord"
+    },
+    "PERKS": {
+        "title": "perks of ownership",
+        "detail1": [
+            {
+                "title": "#1-Mint Pass",
+                "content": "No Brainers will act as your Mint Pass for all new endeavors. For every new project Meta Mind Labs launches in the near future, your No Brainer NFT will guarantee you pre-mint access."
+            },
+            {
+                "title": "#2-Commercial Rights",
+                "content": "You fully own the intellectual property and commercial rights of your No Brainer. You can customize it, build derivatives, and monetize it however you want. You’re in complete control!"
+            },
+            {
+                "title": "#3-Contribute To The Cause",
+                "content": "Join the movement by investing in our NFT project. We will be donating over $100,000 of all primary sales + 25% of royalties to a mental health / brain trauma foundation (chosen by our community)."
+            },
+            {
+                "title": "#4-Merchandise Royalties",
+                "content": "T-shirts, hoodies, caps, pillows, and more! Earn passive income if your No Brainer is used on any of the merchandise (and we plan on using a lot of them) by getting a big % of the profits."
+            }
+        ],
+        "detail2": [
+            {
+                "title": "#5-Private Mind Access",
+                "content": "No Brainer holders will get access to an exclusive discord group where they can discuss upcoming NFT & crypto projects and participate in private ETH, solid gold No Brainer jewelry,  & NFT giveaways (up to 15 ETH given during and post launch)."
+            },
+            {
+                "title": "#6-Metal Posters",
+                "content": "We have partnered up with Displate to provide you with amazing artwork. 100 lucky holders will be sent a one of a kind magnet mounted metal poster of their No Brainer."
+            },
+            {
+                "title": "#7-Community Treasury",
+                "content": "We’re in it for the long haul, which is why we are creating a treasury that will be used for community artist grant programs, marketing efforts, exclusive giveaways, and future MetaMind Labs project funding."
+            },
+            {
+                "title": "#8-Metaverse Integration",
+                "content": "Flex your No Brainer in the metaverse! More information regarding this will be released after launch."
+            }
+        ]
+    },
+    "TREASURY": {
+        "title": "COMMUNITY TREASURY",
+        "content": "We’re here for the long term, which is why we decided to create the No Brainer community treasury. The latter will allow us to develop our brand to new heights while rewarding our NFT holders.",
+        "detail": [
+            {
+                "title": "Community artist grant programs",
+                "content": [
+                    "We will be helping talented No Brainer holders in creating and launching their own NFT collection. Art competitions will be hosted in Discord and our beloved brainiacs will vote on who deserves the treasury grant. We will be hosting multiple competitions."
+                ]
+            },
+            {
+                "title": "Marketing expenditures",
+                "content": [
+                    "This one’s a no brainer. We will be leveraging our marketing expertise and the community treasury to launch successful digital and traditional marketing campaigns. This will allow us to grow our brand and our community. No Brainer holders will have options to vote on."
+                ]
+            },
+            {
+                "title": "Exclusive giveaways",
+                "content": [
+                    "ETH giveaways on snapshot dates for No Brainer holders",
+                    "Custom No Brainer jewelry (solid gold chain + pendant)"
+                ]
+            },
+            {
+                "title": "No Brainer Metaverse",
+                "content": [
+                    "Metaverse Land Purchase & Development"
+                ]
+            },
+            {
+                "title": "Growing the treasury",
+                "content": [
+                    "We plan on maintaining a net positive ETH flow for our community treasury through various monetization methods, such as:",
+                    "10-20% of all future NFT collection primary sales and royalties",
+                    "10% of profits from No Brainer and future NFT collection merchandise sales",
+                    "New monetization strategies will be discussed in the Private Mind"
+                ]
+            }
+        ]
+    },
+    "PARITY": {
+        "title": "rarity",
+        "content": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ",
+        "detail_title": "5100 NO BRAINERS",
+        "detail": [
+            "200 Backgrounds",
+            "12 Necks",
+            "23 Eyes",
+            "15 Brains",
+            "8 Torsos",
+            "12 Mouths",
+            "7 Hats",
+            "9 Backs",
+            "11 Piercings",
+            "4 Unique Traits"
+        ]
+    },
+    "ROADMAP": {
+        "title": "ROADMAP",
+        "phase1": "Phase 1 - BREAKOUT",
+        "phase2": "Phase 2 - INTEGRATION",
+        "phase3": "Phase 3 - EXPANSION",
+        "subtitles": [
+            "Pre Launch",
+            "Launch",
+            "25% SOLD",
+            "50% SOLD",
+            "75% SOLD",
+            "100% SOLD",
+            "Development",
+            "Integration",
+            "Expansion"
+        ],
+        "contents": [
+            [
+                {
+                    "subtitle": "Influencer Collabs",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Press Release",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Giveaways",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Contests",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Website Launched",
+                    "detail": []
+                },
+                {
+                    "subtitle": "No Brainer Traits Finalized",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Smart Contract Deployed",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Total amount in the community treasury: 40 ETH ($140,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Total amount donated to charity: 30 ETH ($105,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "*ToW = Time of Writing",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "5 ETH transferred to the community treasury ($17,500 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "4 ETH donated to charity ($14,000 @ ToW)",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Extra 8 ETH transferred to the community treasury ($28,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Extra 6 ETH donated to charity ($21,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "2x 0.5 ETH giveaway ($3,500 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "2 No Brainers airdropped to lucky holders!",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Extra 12 ETH transferred to the community treasury ($42,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Extra 8 ETH donated to charity ($28,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "50 lucky holders will be chosen to be sent a beautifully crafted magnet mounted Displate of their No Brainer",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Extra 15 ETH transferred to the community treasury ($52,500 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Extra 12 ETH donated to charity ($42,000 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "5x 0.5 ETH giveaway ($8,750 @ ToW)",
+                    "detail": []
+                },
+                {
+                    "subtitle": "5 No Brainers airdropped to lucky holders!",
+                    "detail": []
+                },
+                {
+                    "subtitle": "50 lucky holders will be chosen to be sent a beautifully crafted magnet mounted Displate of their No Brainer",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Holders vote to choose mental health charity",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Private Mind Access",
+                    "detail": [
+                        "Private discord group for holders to share some NFT & crypto alpha",
+                        "Exclusive giveaways & contests"
+                    ]
+                },
+                {
+                    "subtitle": "No Brainer rarity data added to rarity.tools",
+                    "detail": []
+                },
+                {
+                    "subtitle": "OpenSea Verification",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Brain Buddy project initiation: We don’t want your No Brainers to be lonely. Once launched, all holders will be able to mint a Brain Buddy for free.",
+                    "detail": [
+                        "Both No Brainer & Brain Buddy holders will have a huge surprise in the future."
+                    ]
+                },
+                {
+                    "subtitle": "No Brainer merchandise launched: T-shirts, hoodies, caps, beanies, plush brains, blankets, coffee mugs, and more!",
+                    "detail": [
+                        "As an early adopter, if your No Brainer is used on any of the merchandise (and we plan on using a lot of them), you will get a big percentage of the profits."
+                    ]
+                },
+                {
+                    "subtitle": "Community grant program launches: Art competitions launched to fund aspiring NFT artists in the Private Mind community and help them gain traction with their own NFT project.",
+                    "detail": [
+                        "We will help with art generation, smart contract development, website build and marketing. Funded by the No Brainers team."
+                    ]
+                },
+                {
+                    "subtitle": "Leverage our marketing agency to partner up with popular brands, communities, and other influencers.",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Finalize collaborations with other NFT projects and artists.",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "20% of all secondary sales will go to the community treasury wallet",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Moreover, we will create a DAO that votes on how the community treasury wallet is spent",
+                    "detail": []
+                },
+                {
+                    "subtitle": "This ensures the ability to keep growing the brand and keep providing our holders value",
+                    "detail": []
+                },
+                {
+                    "subtitle": "Each No Brainer you hold counts as 1 vote",
+                    "detail": []
+                }
+            ],
+            [
+                {
+                    "subtitle": "Season 2 project launch: more details will be provided",
+                    "detail": [
+                        "Don’t forget, your No Brainer will act as a mint pass for this and any other future collection launches!"
+                    ]
+                }
+            ]
+        ]
+    },
+    "TEAM": {
+        "title": "OUR TEAM",
+        "info": [
+            {
+                "name": "CEO",
+                "image": ""
+            },
+            {
+                "name": "CTO",
+                "image": ""
+            },
+            {
+                "name": "CAO",
+                "image": ""
+            },
+            {
+                "name": "CDO",
+                "image": ""
+            },
+            {
+                "name": "CGO",
+                "image": ""
+            },
+            {
+                "name": "CCO",
+                "image": ""
+            }
+        ],
+        "subtitle": "member name",
+        "detail": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet."
+    },
+    "FAQ": {
+        "title": "FAQ",
+        "content": [
+            {
+                "subtitle": "What are No Brainers?",
+                "detail": "No Brainers is an NFT collection that houses 5,100 completely unique 3D characters on the Ethereum blockchain in the form of ERC-721 tokens, algorithmically generated from over 170 unique traits. There are X super rare 1/1 No Brainers that every minter has the chance to own: Make sure to join our Discord and follow us on Twitter to not miss out on your chance to win some of them!"
+            },
+            {
+                "subtitle": "What are the perks of owning a No Brainer?",
+                "detail": "Exclusive ETH giveaways (up to 10 ETH), full commercial rights, mint pass for any future project, royalties from No Brainers merchandise profits, access to the Private Mind exclusive group, the list goes on! You will also be helping advance and fund mental health / brain trauma research. We will be donating 30 ETH once we sell out to the charity of the community’s choice."
+            },
+            {
+                "subtitle": "When will No Brainers be launched?",
+                "detail": "Presale and Public sale dates will be announced shortly! Join our Discord and follow us on Twitter for all launch updates."
+            },
+            {
+                "subtitle": "How much is a No Brainer?",
+                "detail": "Price is 0.07 ETH + gas for each."
+            },
+            {
+                "subtitle": "How can I mint a No Brainer?",
+                "detail": "You will be able to mint a No Brainer directly from our website (or from the Etherscan contract). Make sure to join our Discord and read the instructions in the #how-to-buy channel for more information. If you have any questions or concerns, do not hesitate to ask questions in the #community-help channel."
+            },
+            {
+                "subtitle": "Will you be donating to charity?",
+                "detail": "Yes! We will be donating to a mental health / brain trauma charity chosen by our beloved community. Here is how we are breaking the donations down: 25% Sold - 4 ETH ($14,000 @ ToW) 50% Sold - Additional 6 ETH ($21,000 @ ToW) 75% Sold - Additional 8 ETH ($28,000 @ ToW)  100% Sold - Additional 12 ETH ($42,000 @ ToW) Once we reach our milestone of 100% sold, we will have donated a whopping 30 ETH ($105,000 @ ToW) to the charity decided by our community. After launch, we will be donating 25% of all royalties to the same charity chosen by our community. *TOW = time of writing"
+            },
+            {
+                "subtitle": "How many No Brainers can we mint per wallet?",
+                "detail": " Amount of mints per wallet varies based on the phase. During presale (24 hour duration) and whitelist (30 minutes before launch), you can only mint 4 No Brainers per wallet. During the public sale, you can mint 7 No Brainers per wallet."
+            },
+            {
+                "subtitle": "When will our No Brainers be revealed?",
+                "detail": "Within 24 hours of selling out."
+            },
+            {
+                "subtitle": "What will the treasury wallet be used for?",
+                "detail": "Treasury wallet will be used for community artist incubation programs, supporting No Brainers marketing efforts, and future MetaMind Labs project funding. Few surprises along the way too!"
+            },
+            {
+                "subtitle": "I got a DM from one of the No Brainers moderators.",
+                "detail": "Our team (founders, moderators, artists, developers, marketers) will NEVER contact you first. Make sure to screenshot and report the user in our Discord #report-scammers channel."
+            },
+            {
+                "subtitle": "How will you be marketing this project?",
+                "detail": "Not to pat ourselves on the back here, but we are digital marketers by trade and have extensive experience in this space. Heck, we even run a marketing agency when we’re not messing around with crypto and NFT. One thing’s for sure, we don’t mess around when it comes to promotion. We are already in talks with several NFT influencers on Twitter, TikTok, and Instagram and will be keeping our community in the loop in terms of our marketing efforts."
+            },
+            {
+                "subtitle": "I have some suggestions / feedback, who do I contact?",
+                "detail": "First step would be to join our Discord server. Second, head over to the #suggestions channel and write up your suggestions and feedback. Make sure to be as detailed as possible. Whether it’s for marketing, artwork, use cases, or any other aspect of our collection, we are always listening to our community’s recommendations."
+            },
+            {
+                "subtitle": "How much will I have to pay in gas fees?",
+                "detail": "It’s impossible to tell. Gas prices are highly volatile. Presalers will have 24h to mint their No Brainer. This way, they can monitor gas prices and mint when it’s at the lowest. You can also check the gas prices here: https://www.gasnow.org/"
+            }
+        ]
+    }
+}
